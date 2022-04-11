@@ -1,0 +1,51 @@
+concurrent_requests: 1000
+dns_servers: 
+  # google
+  - host: 8.8.8.8
+    port: 53
+    timeout: 5000
+  - host: 8.8.4.4
+    port: 53
+    timeout: 5000
+  # level 3
+  - host: 209.244.0.3
+    port: 53
+    timeout: 5000
+  - host: 209.244.0.4
+    port: 53
+    timeout: 5000
+  # verisign
+  - host: 64.6.64.6
+    port: 53
+    timeout: 5000
+  - host: 64.6.65.6
+    port: 53
+    timeout: 5000
+  # dns watch
+  - host: 84.200.69.80
+    port: 53
+    timeout: 5000
+  - host: 84.200.70.40
+    port: 53
+    timeout: 5000
+  # comodo
+  - host: 8.26.56.26
+    port: 53
+    timeout: 5000
+  - host: 8.20.247.20
+    port: 53
+    timeout: 5000
+  # opendns
+  - host: 208.67.222.222
+    port: 53
+    timeout: 5000
+  - host: 208.67.220.220
+    port: 53
+    timeout: 5000
+  # norton
+  - host: 199.85.126.10
+    port: 53
+    timeout: 5000
+  - host: 199.85.127.10
+    port: 53
+    timeout: 5000

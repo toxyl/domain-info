@@ -2,7 +2,7 @@ package main
 
 import "net"
 
-type Address struct {
+type PTRRecord struct {
 	IP    net.IP
 	Names []string
 }

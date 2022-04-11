@@ -10,7 +10,7 @@ func Do(method, url string) string {
 	client := http.Client{}
 	req, err := http.NewRequest(method, url, nil)
 	if err != nil {
-		log.Printf("Could not create request to get prices: %s\n", err)
+		log.Printf("Do() could not create request: %s\n", err)
 		return ""
 	}
 
