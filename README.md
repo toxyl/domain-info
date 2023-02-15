@@ -3,7 +3,7 @@ Simple tool to query info about one or more domains.
 
 ## Install
 ```bash
-git clone https://www.github.com/Toxyl/domain-info
+git clone https://www.github.com/toxyl/domain-info
 cd domain-info
 CGO_ENABLED=0 go build .
 cp domain-info /usr/local/bin/
