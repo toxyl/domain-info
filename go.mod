@@ -3,7 +3,7 @@ module github.com/toxyl/domain-info
 go 1.18
 toolchain go1.24.1
 
-require github.com/spf13/viper v1.20.0
+require github.com/spf13/viper v1.20.1
 
 require (
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
